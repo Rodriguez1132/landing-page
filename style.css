@@ -68,7 +68,6 @@ body {
     align-items: center;
     font-size: 48px;
     font-weight: 700;
-   
     color: white;
   }
 
@@ -99,3 +98,20 @@ body {
     width: 480px;
     height: 187px;
   }
+
+.card-header{
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.card-img{
+  border: 5px solid royalblue;
+}
